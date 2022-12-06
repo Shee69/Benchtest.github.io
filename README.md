@@ -143,7 +143,7 @@ $$\begin{align*}
 - Most common transistor is MOSFET(Metal-Oxide-Semiconductor Field Transistor)
 - Make up logic gates which perform boolean logic
 - nMOS:
-  - ![nMOS](assets/Screenshot%202022-12-05%20201359.png)
+  - ![nMOS](/assets/Screenshot%202022-12-05%20201359.png)
   - current between d-s only if voltage on g
 - pMOS
   - ![pMOS](assets/Screenshot%202022-12-05%20201651.png)
