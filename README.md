@@ -208,16 +208,14 @@
 - Example complete sets:
   - AND, OR, NOT
   - NOR
-    - ```math
-    \begin{align*}
+    - ```math \begin{align*}
     A\cdot B &= \overline{\overline{A+A}+\overline{B+B}}\\
     A + B &= \overline{\overline{A+B}+\overline{A+B}}\\
     \bar{A} &= \overline{A+A}
     \end{align*}
     ```
   - NAND
-    - ```math
-    \begin{align*}
+    - ```math \begin{align*}
     A\cdot B &= \overline{\overline{A\cdot B}\cdot\overline{A\cdot B}}\\
     A + B &= \overline{\overline{A\cdot A}\cdot\overline{B\cdot B}}\\
     \bar{A} &= \overline{A\cdot A}
