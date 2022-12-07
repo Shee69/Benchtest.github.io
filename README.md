@@ -87,10 +87,12 @@
 
 ## Subtracting
 - Use Long Multiplication
-$$\begin{align*}
+```math
+\begin{align*}
     0\cdot1&=0\\
     1\cdot1&=1\\
-\end{align*}$$
+\end{align*}
+```
 
 ## Overflow
 - If answer does not fit in register overflow error occurs
