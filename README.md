@@ -208,14 +208,16 @@
 - Example complete sets:
   - AND, OR, NOT
   - NOR 
-    ```math \begin{align*}
+    ```math 
+    \begin{align*}
     A\cdot B &= \overline{\overline{A+A}+\overline{B+B}}\\
     A + B &= \overline{\overline{A+B}+\overline{A+B}}\\
     \bar{A} &= \overline{A+A}
     \end{align*}
     ```
   - NAND
-    ```math \begin{align*}
+    ```math 
+    \begin{align*}
     A\cdot B &= \overline{\overline{A\cdot B}\cdot\overline{A\cdot B}}\\
     A + B &= \overline{\overline{A\cdot A}\cdot\overline{B\cdot B}}\\
     \bar{A} &= \overline{A\cdot A}
@@ -294,7 +296,6 @@
 - Subtractor
   - Adding negative as twos complement negative
   - ![Alt text](assets/Screenshot%202022-12-05%20225236.png)
-
 - Decoder
   - Translates coded information from one format to another
   - Transforms set of digital inputs to equivalent decimal code at output
