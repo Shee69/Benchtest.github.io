@@ -86,13 +86,16 @@
 ```
 
 ## Subtracting
+- Do addition but with the negated subtrahend
+- Example (2's Compliment):
+- $10000-00101=10000+11011$
+
+## Multiplication
 - Use Long Multiplication
-```math
-\begin{align*}
-    0\cdot1&=0\\
-    1\cdot1&=1\\
-\end{align*}
-```
+- Starting with the first digit, write the result directly under
+- From then on, write the result but move it left by 1 column (replace this with a zero)
+- If multiplied by a 1 then copy the result identically, and if multiplied by a 0 then the result is all 0s
+- After going through all the numbers of the multiplend, add up all the result and this will give you the final value
 
 ## Overflow
 - If answer does not fit in register overflow error occurs
