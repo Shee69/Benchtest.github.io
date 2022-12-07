@@ -76,11 +76,14 @@
 # Binary Arithmetic
 ## Adding in Binary
 - 8 rules:
-$$\begin{align*}
+```math
+\begin{align*}
     0+0&=0\\
     0+1&=1\\
+    1+0&=1\\
     1+1&=0 \textrm{ with Carry }\\
-\end{align*}$$0+0&=0
+\end{align*}
+```
 
 ## Subtracting
 - Use Long Multiplication
