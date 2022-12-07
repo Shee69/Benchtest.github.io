@@ -8,8 +8,9 @@
   - [Dec to Bin](#dec-to-bin)
   - [Dec Fractions to Bin](#dec-fractions-to-bin)
 - [Binary Arithmetic](#binary-arithmetic)
-  - [Adding in Binary](#adding-in-binary)
-  - [Subtracting](#subtracting)
+  - [Addition in Binary](#addition-in-binary)
+  - [Subtraction](#subtraction)
+  - [Multiplication](#multiplication)
   - [Overflow](#overflow)
   - [Negative Numbers](#negative-numbers)
 - [Floating Point Representation](#floating-point-representation)
@@ -74,7 +75,7 @@
 - Else place 0
 
 # Binary Arithmetic
-## Adding in Binary
+## Addition in Binary
 - 8 rules:
 ```math
 \begin{align*}
@@ -85,7 +86,7 @@
 \end{align*}
 ```
 
-## Subtracting
+## Subtraction
 - Do addition but with the negated subtrahend
 - Example (2's Compliment):
 - $10000-00101=10000+11011$
