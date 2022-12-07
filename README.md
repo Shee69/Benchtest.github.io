@@ -126,19 +126,19 @@
   - 23 bit mantissa
 - For Single precision(32-bit):
 - Three fields
-  - Sign bit($S$)
+  - Sign bit(S)
     - 0 for positive
     - 1 for negative
-  - Exponent($e$)
+  - Exponent(e)
     - Has bias 127
     - If $e$ has value:
-      - |$e=$ |Meaning|
+      - |$e$ |Meaning|
         |---|---|
         |0 with $M=0$|gives number 0|
         |0 with $M\neq0$|gives subnormal numbers|
         |255 with $M=0$|$\pm \infty$|
         |255 with $M\neq0$|not a number|
-  - Mantissa($M$)
+  - Mantissa(M)
     - Scaled so radix point always after leading 1
 - Represents $\pm M\cdot2^e$
 - **Rounding Error**
