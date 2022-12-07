@@ -78,10 +78,10 @@
 - 8 rules:
 ```math
 \begin{align*}
-    0+0&=0\\
-    0+1&=1\\
-    1+0&=1\\
-    1+1&=0 \textrm{ with Carry }\\
+    0+0&=0 && Carry+0+0=1 \textrm{ with Carry }\\
+    0+1&=1 && Carry+0+1=0 \textrm{ with Carry }\\
+    1+0&=1 && Carry+1+0=0 \textrm{ with Carry }\\
+    1+1&=0 \textrm{ with Carry } && Carry+1+1=1 \textrm{ with Carry }\\
 \end{align*}
 ```
 
