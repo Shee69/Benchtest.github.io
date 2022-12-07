@@ -288,9 +288,10 @@
 ## Combinatorial circuits
 - Output depends only on current input
 - Half-Adder
-  - ![Alt text](assets/Screenshot%202022-12-05%20224824.png)
+  - ![Alt text](assets/Half-adder.PNG)
 - Adder
   - Inputs include carry from pervious bit using two half adders
+  - ![Alt text](assets/Full-adder.PNG)
 - Ripple Carry Adder
   - ![Alt text](assets/Screenshot%202022-12-05%20225047.png)
 - Subtractor
