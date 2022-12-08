@@ -300,7 +300,7 @@ large as possible.
 - To simplify Boolean function using product of sums:
   - ![Alt text](assets/Screenshot%202022-12-05%20222217.png)
   - AND together all inverses of input sets that give output 0
-  - [alt](assets/POS.PNG)
+  - [alt](assets/POSs.PNG)
   
 ## 7-Segment display driver
 - ![Alt](assets/7-segment-display-driver.PNG)
