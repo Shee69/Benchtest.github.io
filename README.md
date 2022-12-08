@@ -300,6 +300,7 @@ large as possible.
 - To simplify Boolean function using product of sums:
   - ![Alt text](assets/Screenshot%202022-12-05%20222217.png)
   - AND together all inverses of input sets that give output 0
+  - ![alt](assets/POSs.PNG)
   
 ## 7-Segment display driver
 ![Alt](assets/7-segment-display-driver.PNG)
@@ -349,7 +350,7 @@ large as possible.
   - ![Alt text](assets/Screenshot%202022-12-05%20231009.png)
 - Inverting Tristate
   - ![Alt text](assets/Screenshot%202022-12-05%20231258.png)
-  - ![Alt text](assets/inverting-tristate.PNG)
+  - ![Alt text](assets/Inverting-Tristate.PNG)
 
 # Timing and Advanced Adders
 ## Timing
