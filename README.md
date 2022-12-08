@@ -27,8 +27,10 @@
   - [Circuits](#circuits)
   - [Combinational Logic](#combinational-logic)
   - [Boolean Algebra](#boolean-algebra-1)
+  - [Karnaugh Maps](#karnaugh-maps)
   - [Sum of Products](#sum-of-products)
   - [Product of Sums](#product-of-sums)
+  - [7-Segment display driver](#7-Segment-display-driver)
   - [Axioms](#axioms)
 - [Circuits](#circuits-1)
   - [Combinatorial circuits](#combinatorial-circuits)
@@ -272,6 +274,14 @@
 - Sum(implicant): OR of several literals
   - Maxterm: sum where all inputs to function appear once each
 
+## Karnaugh Maps
+- Create the map so that neighbouring terms differ in the negation of one variable (including
+wrap around).
+- Circle exactly all ones in the map using as few circles as possible, and making each circle as
+large as possible.
+- Each circle must span a rectangular block that is a power of 2 in each dimension (i.e. 1,2,4).
+- Read off the implicants that were circled
+
 ## Sum of Products
 - Every Boolean expression can be written as minterms ORed together
 - $(A\cdot B\cdot C)+(A\cdot \bar{B} \cdot \bar{C})+(\bar{A}\cdot B\cdot C)$
@@ -281,13 +291,19 @@
   - AND together inputs for every output 1
   - OR together all products
   - $F(X,Y,Z) = \bar{X}\cdot\bar{Y}\cdot\bar{Z}+\bar{X}\cdot Y\cdot Z+x\cdot \bar{Y}\cdot Z+X\cdot Y\cdot\bar{Z}$
+  - SOP: $Y= \bar{A}\bar{B}\bar{C} + \bar{A}\bar{B}C + AB\bar{C} + A\bar{B}\bar{C} + A\bar{B}C$
+  - ![alt](assets/SOP.PNG)
 
 ## Product of Sums
-- Every Boolean expression can be written as macterms ANDed together
+- Every Boolean expression can be written as maxterms ANDed together
 - $(\bar{A}+\bar{B}+\bar{C})\cdot(\bar{A}+B+C)\cdot(A+B+\bar{C})$
 - To simplify Boolean function using product of sums:
   - ![Alt text](assets/Screenshot%202022-12-05%20222217.png)
   - AND together all inverses of input sets that give output 0
+  - [alt](assets/POS.PNG)
+  
+## 7-Segment display driver
+- ![Alt](assets/7-segment-display-driver.PNG)
 
 ## Axioms
 ![Alt text](assets/Screenshot%202022-12-05%20223838.png)
