@@ -168,6 +168,10 @@
   - ![And](assets/Screenshot%202022-12-05%20202432.png)
   - Algebraic: $Y=A\cdot B$
   - ![Tbl](assets/Screenshot%202022-12-05%20202549.png)
+  - ![alt](assets/and-gate-transistor.PNG)
+- NAND
+  - ![alt](assets/nand-gate.PNG)
+  - ![alt](assets/nand-gate-transistor.PNG)
 - OR
   - ![OR](assets/Screenshot%202022-12-05%20202635.png)
   - $Y=A\cdot B$
@@ -180,6 +184,7 @@
   - ![NOT](assets/Screenshot%202022-12-05%20203118.png) 
   - $Y=\bar{A}$
   - ![tbl](assets/Screenshot%202022-12-05%20203206.png)
+  - ![alt](assets/not-gate-transistor.PNG)
 - NOR
   - ![NOR](assets/Screenshot%202022-12-05%20203317.png)
   - $Y=\overline{A+B}$
