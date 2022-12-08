@@ -180,6 +180,7 @@
   - ![XOR](assets/Screenshot%202022-12-05%20202824.png)
   - $Y=A\oplus B$
   - ![tbl](assets/Screenshot%202022-12-05%20203026.png)
+  - ![alt](assets/xor-gate-implement.PNG)
 - NOT
   - ![NOT](assets/Screenshot%202022-12-05%20203118.png) 
   - $Y=\bar{A}$
@@ -202,6 +203,7 @@
 ## Logic Levels
 - Way of mapping continuous voltage to 0 or 1
 - ![levels](assets/Screenshot%202022-12-05%20204352.png)
+- ![levels](assets/Logic-level.PNG)
 
 ## Static Discipline
 - Guarantee that if inputs meet input thresholds then outputs meet output thresholds
