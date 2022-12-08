@@ -93,7 +93,7 @@
 ## Subtraction
 - Do addition but with the negated subtrahend
 - Example (2's Compliment):
-- $10000-00101=10000+11011$
+- $10000-00101=10000+11011$ (With this, ignore two's compliment)
 
 ## Multiplication
 - Use Long Multiplication
