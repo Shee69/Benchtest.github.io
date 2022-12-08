@@ -34,6 +34,7 @@
   - [Axioms](#axioms)
 - [Circuits](#circuits-1)
   - [Combinatorial circuits](#combinatorial-circuits)
+  - [ALU](#ALU)
 - [Timing and Advanced Adders](#timing-and-advanced-adders)
   - [Timing](#timing)
   - [Critical Paths](#critical-paths)
@@ -339,8 +340,21 @@ large as possible.
   - S decides which input $D_0$ or $D_1$ become output
   - ![Alt text](assets/Screenshot%202022-12-05%20230459.png)
   - Has $k+2^k$ inputs and 1 out
-  - ![Alt text](assets/Screenshot%202022-12-05%20231410.png)
+  - Can be implemented in many ways. For example, a 4-to-1 MUX:
+  - ![Alt text](assets/mux-base-implementation.PNG)
+  - Can be implemented in 3 different ways
+  - ![alt](assets/mux-implementation.PNG)
+  - a) two-level logic, requiring multiple input gates.
+  - b) Using tri-state buffers – take value of input if activated, otherwise
+  floating value.
+  - c) Using hierarchical logic
   - MUX can be used for combinational logic functions
+  - $f = \bar{x}\cdot\bar{y}\cdot\bar{z} + \bar{x}\cdot y\cdot\bar{z} + x\cdot y\cdot\bar{z} + x\cdot y\cdot z$
+  - ![alt](assets/8mux-SOP.PNG)
+  - $f = \bar{x}\cdot\bar{y}\cdot\bar{z} + \bar{x}\cdot y\cdot\bar{z} + x\cdot y\cdot\bar{z} + x\cdot y\cdot z$
+  - $= (\bar{x}\cdot\bar{y} + \bar{x}\cdot y)\cdot \bar{z} + x\cdot y\cdot (z + \bar{z})$
+  - $= (\bar{x}\cdot\bar{y} + \bar{x}\cdot y)\cdot \bar{z} + x\cdot y$
+  - ![alt](assets/4mux-SOP.PNG)
   - Can be used in ALU for selecting which operation to use on inputs
 - Tristate
   - Like single transistor but fully disconnects when gate is 0
@@ -351,6 +365,9 @@ large as possible.
 - Inverting Tristate
   - ![Alt text](assets/Screenshot%202022-12-05%20231258.png)
   - ![Alt text](assets/Inverting-Tristate.PNG)
+
+## ALU
+  - ![alt](assets/alu.PNG)
 
 # Timing and Advanced Adders
 ## Timing
