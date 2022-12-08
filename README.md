@@ -69,10 +69,14 @@
 - Repeat mod div by 2 until result 0
 - Put remainders of each mod div is bin from right to left
 
+  ![Alt text](assets/decimal-to-binary.PNG)
+
 ## Dec Fractions to Bin
 - Multiply number by 2 until fractional part 0
 - If $i$ th result greater than or equal to $1$ place $1$ in $i$ th position to right of radix
 - Else place 0
+
+  ![Alt text](assets/decimalfraction-to-binary.PNG)
 
 # Binary Arithmetic
 ## Addition in Binary
