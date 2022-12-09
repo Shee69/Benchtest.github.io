@@ -42,7 +42,7 @@
   - [Hazard Removal](#hazard-removal)
   - [Adder](#adder)
   - [Carry-Lookahead adder](#carry-lookahead-adder)
-- [Sequential circuits](#sequential-circuits)
+- [Sequential circuits](#sequential-circuit)
   - [SR latch](#sr-latch)
   - [D latch](#d-latch)
   - [D flip flop](#d-flip-flop)
