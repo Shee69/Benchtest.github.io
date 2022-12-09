@@ -373,7 +373,7 @@ large as possible.
 ## Timing
 - Delay between input changing and output adjusting
 - Contamination delay: $t_{cd}$
-  - mind delay before output change
+  - min delay before output change
 - Propagation delaY: $t_{pd}$
   - max delay before output stable
 - Caused by:
