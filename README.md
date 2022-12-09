@@ -42,6 +42,10 @@
   - [Hazard Removal](#hazard-removal)
   - [Adder](#adder)
   - [Carry-Lookahead adder](#carry-lookahead-adder)
+- [Sequential circuits](#sequential-circuits)
+  - [SR latch](#sr-latch)
+  - [D latch](#d-latch)
+  - [D flip flop](#d-flip-flop)
 
 # Number Systems
 - Systems of expressing numbers with digits and/or symbols
@@ -424,3 +428,18 @@ large as possible.
     - Chain 4 bit CLAs as you would full adders
   - Solution 2
     - CLA into more CLA logic
+
+# Sequential Circuit
+##  SR latch
+- ![alt](assets/nor-latch.PNG)
+- ![alt](assets/not-truth-table.PNG)
+
+##  D latch
+- ![alt](assets/d-latch.PNG)
+- CLK (clock) determines when the value changes
+- D (data) determines what the value changes to
+
+##  D flip flop
+- ![alt](assets/d-flipflop.PNG)
+- When CLK low, data gets loaded to the "master" node, and only when CLK is high does the data gets transfered to the "slave" node
+- D flip-flop copies D to Q on the rising edge of the clock and remembers its state at allother times
